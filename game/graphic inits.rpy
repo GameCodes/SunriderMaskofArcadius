@@ -2,29 +2,29 @@ init -5:
     
     ########################## CHARACTER INIT
     
-    define kay = Character('Kayto', who_xalign=0.05)
-    define ava = Character('Ava', who_xalign=0.05)
-    define asa = Character('Asaga', who_xalign=0.05)
-    define chi = Character('Chigara', who_xalign=0.05)
-    define ica = Character('Icari', who_xalign=0.05)
-    define kry = Character('Kryska', who_xalign=0.05)
-    define sol = Character('Sola', who_xalign=0.05)
-    define cla = Character('Claude', who_xalign=0.05)
-    define cos = Character('Cosette', who_xalign=0.05)
-    define gre = Character('Grey', who_xalign=0.05)
-    define arc = Character('Arcadius', who_xalign=0.05)
-    define ryu = Character('Jaylor', who_xalign=0.05)
-    define pi = Character('Pilot', who_xalign=0.05)
-    define cul = Character('Cullen', who_xalign=0.05)
-    define sop = Character('Sophita', who_xalign=0.05)
-    define fon = Character('Fontana', who_xalign=0.05)
-    define mar = Character('Maray', who_xalign=0.05)
+    define kay = Character(u'凯托', who_xalign=0.05)
+    define ava = Character(u'艾瓦', who_xalign=0.05)
+    define asa = Character(u'阿萨嘉', who_xalign=0.05)
+    define chi = Character(u'切嘉拉', who_xalign=0.05)
+    define ica = Character(u'伊卡莉', who_xalign=0.05)
+    define kry = Character(u'科莉斯卡', who_xalign=0.05)
+    define sol = Character(u'索拉', who_xalign=0.05)
+    define cla = Character(u'科洛特', who_xalign=0.05)
+    define cos = Character(u'柯赛特', who_xalign=0.05)
+    define gre = Character(u'格雷', who_xalign=0.05)
+    define arc = Character(u'阿卡迪乌斯', who_xalign=0.05)
+    define ryu = Character(u'杰勒', who_xalign=0.05)
+    define pi = Character(u'飞行员', who_xalign=0.05)
+    define cul = Character(u'库仑', who_xalign=0.05)
+    define sop = Character(u'索菲塔', who_xalign=0.05)
+    define fon = Character(u'方特纳', who_xalign=0.05)
+    define mar = Character(u'玛蕾', who_xalign=0.05)
     define cen = Character(" ", what_font="Font/PERTILI.TTF", what_size=25, what_xalign=0.5, what_text_align=0.5, what_yalign=0.5)
     define e = Character(" ")
     define score = Character(" ", what_font="Font/GOTHIC.TTF", what_size=35, what_xalign=0.5, what_yoffset=-500)            
     define cre = Character(" ", what_font="Font/GOTHIC.TTF", what_size=20, what_xalign=0.5, what_yoffset=-800)            
-    define kyo = Character('Kyoko', who_xalign=0.05)
-    define pro = Character('Prototype', who_xalign=0.05)
+    define kyo = Character(u'蔻蔻', who_xalign=0.05)
+    define pro = Character(u'原型', who_xalign=0.05)
 
 #####################################SIDE CHARACTERS
 
@@ -909,12 +909,12 @@ init -5:
         alpha 0.0
         linear 2.0 alpha 1.0
         
-    image intro1 = Text("Humanity has spread to the four corners of the galaxy.{p}Subjugating all life, we have become the dominant species throughout the stars.", size=30, font="Font/GOTHIC.TTF", text_align=0.5)
-    image intro2 = Text("Yet, we are far from secure.", size=30, font="Font/GOTHIC.TTF", text_align=0.5)
-    image intro3 = Text("War brews from the northern quadrant of the galaxy.{p}PACT, the People's Alliance, has toppled the once mighty New Empire.", size=30, font="Font/GOTHIC.TTF", text_align=0.5)
-    image intro4 = Text("Led by a mysterious individual known only as Veniczar Arcadius, PACT seeks to{p}subjugate the galaxy under its new world order.", size=30, font="Font/GOTHIC.TTF", text_align=0.5)
-    image intro5 = Text("Distant from the brewing clouds of war, {p}the neutral world of Cera seemed safe from the approaching PACT war machine.{p}It is on this quiet world where our journey begins...", size=30, font="Font/GOTHIC.TTF", text_align=0.5)
-    image comingsoon = Text("SUNRIDER IS IN CONSTRUCTION", size=30, font="Font/GOTHIC.TTF", text_align=0.5)
+    image intro1 = Text(u"人类已经扩张到了宇宙的各个角落。{p}我们征服了所有其他物种，成为了宇宙的统治种族。", size=30, font="Font/NotoSansCJKsc-Regular.otf", text_align=0.5)
+    image intro2 = Text(u"然而我们并没有得到安宁。", size=30, font="Font/NotoSansCJKsc-Regular.otf", text_align=0.5)
+    image intro3 = Text(u"战争从星系北方开始蔓延。{p}自称人民联盟的PACT推翻了一度强大的新帝国。", size=30, font="Font/NotoSansCJKsc-Regular.otf", text_align=0.5)
+    image intro4 = Text(u"由自称维尼克扎·阿卡迪乌斯的神秘人物领导，{p}PACT准备以他们的秩序征服整个星系。", size=30, font="Font/NotoSansCJKsc-Regular.otf", text_align=0.5)
+    image intro5 = Text(u"在战争阴云尚未波及的远方{p}中立星球瑟拉似乎尚未被PACT滚滚前进的战争机器所威胁。{p}我们的旅途从这个平静的角落开始……", size=30, font="Font/NotoSansCJKsc-Regular.otf", text_align=0.5)
+    image comingsoon = Text(u"太阳骑士号正在建造中", size=30, font="Font/NotoSansCJKsc-Regular.otf", text_align=0.5)
     image miss = Text("MISS", size=60, font="Font/GOTHIC.TTF", text_align=0.5)
     image battlewarning:
         "gameplay/battlestations.png"

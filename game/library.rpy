@@ -1276,9 +1276,9 @@ init 2 python:
             self.wtype = 'Laser'
             self.name = 'Trinities'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
-            Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
+            self.tooltip = u"""
+            激光是长距离上的精准武器，但是火力有限。
+            会被敌人的护盾抵消。"""
 
     class SunriderMissile(Missile):
         def __init__(self):
@@ -1292,10 +1292,10 @@ init 2 python:
             self.wtype = 'Missile'
             self.name = 'Sunrider_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
-            Fires a barrage of guided missiles at the enemy. While individually weak,
-            their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
+            self.tooltip = u"""
+            向敌人发射大量导弹。虽然每发火力较弱，
+            但是数量庞大足以造成巨大杀伤。在长距离
+            上依然精准。有弹药限制，会被防空火力削弱。"""
 
     class SunriderKinetic(Kinetic):
         def __init__(self):
@@ -1307,9 +1307,9 @@ init 2 python:
             self.wtype = 'Kinetic'
             self.name = 'Sunrider\'s main guns'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
-            Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
+            self.tooltip = u"""
+            一发面对远距离和小目标敌人时不甚精确的重击。
+            面对动能武器时护甲效果加倍。"""
 
     class SunriderPulse(Laser):
         def __init__(self):
@@ -1321,10 +1321,10 @@ init 2 python:
             self.wtype = 'Pulse'
             self.name = 'Sunrider_Pulse'
             self.lbl = Image('Battle UI/button_pulse.png')
-            self.tooltip = """
-            Fires a high volume of laser pulses. Even if the enemy evades one bolt,
-            others may still strike. Collectively, they are more powerful than
-            stream lasers, but cannot pierce armor. Also mitigated by shields."""
+            self.tooltip = u"""
+            发射大量激光脉冲。即使敌人闪避了其中几发，
+            其它依旧可能命中。它们总伤害比激光束更强，
+            但是不能穿透护甲，也会被护盾抵消。"""
 
     class SunriderAssault(Kinetic):
         def __init__(self):
@@ -1336,11 +1336,11 @@ init 2 python:
             self.wtype = 'Assault'
             self.name = 'Sunrider\'s Flak'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
-            Assault guns spray explosive low caliber rounds at the enemy. Even if
-            the enemy evades one round, others may hit. Armor is twice as
-            effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
+            self.tooltip = u"""
+            弹幕武器发射大量小口径弹幕，即使敌人闪避了
+            其中几发，其它依旧可能命中。面对弹幕武器时
+            护甲效果加倍。也是用来拦截敌人导弹的防空火力，
+            但是连续拦截后效果会减弱。"""
 
     class SunriderRocket(Missile):
         def __init__(self):
@@ -1355,9 +1355,9 @@ init 2 python:
             self.wtype = 'Rocket'
             self.name = 'Thermonuclear warhead'
             self.lbl = Image('Battle UI/button_rocket.png')
-            self.tooltip = """
-            Fires a large rocket at the enemy topped with a devastating warhead.
-            Highly limited in supply. Can be shot down by enemy flak."""
+            self.tooltip = u"""
+            发射装有毁灭性弹头的大型火箭。
+            弹药极度有限，会被敌人防空火力击落。"""
 
 ##############ALLIANCE CRUISER WEAPONS
     class AllianceCruiserLaser(Laser):
@@ -1370,9 +1370,9 @@ init 2 python:
             self.wtype = 'Laser'
             self.name = 'AllianceCruiser_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
-            Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
+            self.tooltip = u"""
+            激光是长距离上的精准武器，但是火力有限。
+            会被敌人的护盾抵消。"""
 
     class AllianceCruiserMissile(Missile):
         def __init__(self):
@@ -1386,10 +1386,10 @@ init 2 python:
             self.wtype = 'Missile'
             self.name = 'AllianceCruiser_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
-            Fires a barrage of guided missiles at the enemy. While individually weak,
-            their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
+            self.tooltip = u"""
+            向敌人发射大量导弹。虽然每发火力较弱，
+            但是数量庞大足以造成巨大杀伤。在长距离
+            上依然精准。有弹药限制，会被防空火力削弱。"""
 
 
     class AllianceCruiserKinetic(Kinetic):
@@ -1402,9 +1402,9 @@ init 2 python:
             self.wtype = 'Kinetic'
             self.name = 'AllianceCruiser_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
-            Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
+            self.tooltip = u"""
+            一发面对远距离和小目标敌人时不甚精确的重击。
+            面对动能武器时护甲效果加倍。"""
 
 
     class AllianceCruiserAssault(Kinetic):
@@ -1417,11 +1417,11 @@ init 2 python:
             self.wtype = 'Assault'
             self.name = 'AllianceCruiser_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
-            Assault guns spray explosive low caliber rounds at the enemy. Even if
-            the enemy evades one round, others may hit. Armor is twice as
-            effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
+            self.tooltip = u"""
+            弹幕武器发射大量小口径弹幕，即使敌人闪避了
+            其中几发，其它依旧可能命中。面对弹幕武器时
+            护甲效果加倍。也是用来拦截敌人导弹的防空火力，
+            但是连续拦截后效果会减弱。"""
 
 ##############ALLIANCE BATTLESHIP WEAPONS
     class AllianceBattleshipLaser(Laser):
@@ -1434,9 +1434,9 @@ init 2 python:
             self.wtype = 'Laser'
             self.name = 'AllianceBattleship_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
-            Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
+            self.tooltip = u"""
+            激光是长距离上的精准武器，但是火力有限。
+            会被敌人的护盾抵消。"""
 
     class AllianceBattleshipMissile(Missile):
         def __init__(self):
@@ -1450,10 +1450,10 @@ init 2 python:
             self.wtype = 'Missile'
             self.name = 'AllianceBattleship_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
-            Fires a barrage of guided missiles at the enemy. While individually weak,
-            their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
+            self.tooltip = u"""
+            向敌人发射大量导弹。虽然每发火力较弱，
+            但是数量庞大足以造成巨大杀伤。在长距离
+            上依然精准。有弹药限制，会被防空火力削弱。"""
 
     class AllianceBattleshipKinetic(Kinetic):
         def __init__(self):
@@ -1465,9 +1465,9 @@ init 2 python:
             self.wtype = 'Kinetic'
             self.name = 'AllianceBattleship_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
-            Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
+            self.tooltip = u"""
+            一发面对远距离和小目标敌人时不甚精确的重击。
+            面对动能武器时护甲效果加倍。"""
 
     class AllianceBattleshipCannon(Kinetic):
         def __init__(self):
@@ -1480,10 +1480,9 @@ init 2 python:
             self.name = 'AllianceBattleship_Cannon'
             self.lbl = Image('Battle UI/button_cannon.png')
             self.animation_name = 'kinetic2'
-            self.tooltip = """
-            The ultimate in interstellar destruction. Can punch holes through
-            the toughest armor, but requires an enormous amount of energy. Ineffective against
-            small targets."""
+            self.tooltip = u"""
+            毁灭性的终极火力，可以穿透最坚固的护甲，
+            但是需要大量能量，对小目标敌人效果很差。"""
 
 
     class AllianceBattleshipAssault(Kinetic):
@@ -1496,11 +1495,11 @@ init 2 python:
             self.wtype = 'Assault'
             self.name = 'AllianceBattleship_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
-            Assault guns spray explosive low caliber rounds at the enemy. Even if
-            the enemy evades one round, others may hit. Armor is twice as
-            effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
+            self.tooltip = u"""
+            弹幕武器发射大量小口径弹幕，即使敌人闪避了
+            其中几发，其它依旧可能命中。面对弹幕武器时
+            护甲效果加倍。也是用来拦截敌人导弹的防空火力，
+            但是连续拦截后效果会减弱。"""
 
 
 ###################BLACK JACK WEAPONS
@@ -1515,9 +1514,9 @@ init 2 python:
             self.wtype = 'Laser'
             self.name = 'Blackjack_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
-            Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
+            self.tooltip = u"""
+            激光是长距离上的精准武器，但是火力有限。
+            会被敌人的护盾抵消。"""
 
 
     class BlackjackMissile(Missile):
@@ -1532,10 +1531,10 @@ init 2 python:
             self.wtype = 'Missile'
             self.name = 'Blackjack_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
-            Fires a barrage of guided missiles at the enemy. While individually weak,
-            their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles.
+            self.tooltip = u"""
+            向敌人发射大量导弹。虽然每发火力较弱，
+            但是数量庞大足以造成巨大杀伤。在长距离
+            上依然精准。有弹药限制，会被防空火力削弱。
             """
 
     class BlackjackPulse(Laser):
@@ -1548,10 +1547,10 @@ init 2 python:
             self.wtype = 'Pulse'
             self.name = 'Blackjack_Pulse'
             self.lbl = Image('Battle UI/button_pulse.png')
-            self.tooltip = """
-            Fires a high volume of laser pulses. Even if the enemy evades one bolt,
-            others may still strike. Collectively, they are more powerful than
-            stream lasers, but cannot pierce armor. Also mitigated by shields."""
+            self.tooltip = u"""
+            发射大量激光脉冲。即使敌人闪避了其中几发，
+            其它依旧可能命中。它们总伤害比激光束更强，
+            但是不能穿透护甲，也会被护盾抵消。"""
 
     class BlackjackAssault(Kinetic):
         def __init__(self):
@@ -1563,11 +1562,11 @@ init 2 python:
             self.wtype = 'Assault'
             self.name = 'Blackjack_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
-            Assault guns spray explosive low caliber rounds at the enemy. Even if
-            the enemy evades one round, others may hit. Armor is twice as
-            effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
+            self.tooltip = u"""
+            弹幕武器发射大量小口径弹幕，即使敌人闪避了
+            其中几发，其它依旧可能命中。面对弹幕武器时
+            护甲效果加倍。也是用来拦截敌人导弹的防空火力，
+            但是连续拦截后效果会减弱。"""
 
     class BlackjackMelee(Melee):
         def __init__(self):
@@ -1581,9 +1580,9 @@ init 2 python:
             self.type = 'Melee'
             self.shot_count = 1
             self.lbl = Image('Battle UI/button_melee.png')
-            self.tooltip = """
-            Slice an enemy ryder for devastating damage. However, can only be used on adjacent
-            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack."""
+            self.tooltip = u"""
+            切开敌人的太空骑士，造成毁灭性伤害。只能用于
+            近身范围的敌人。移动到敌人身边会触发先制反击。"""
 
 
 #############################################LIBERTY WEAPONS
@@ -1598,9 +1597,9 @@ init 2 python:
             self.wtype = 'Laser'
             self.name = 'Liberty_Laser'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
-            Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
+            self.tooltip = u"""
+            激光是长距离上的精准武器，但是火力有限。
+            会被敌人的护盾抵消。"""
 
 
 ###################PALADIN WEAPONS
@@ -1617,10 +1616,10 @@ init 2 python:
             self.wtype = 'Missile'
             self.name = 'Paladin_Missile'
             self.lbl = Image('Battle UI/button_missile.png')
-            self.tooltip = """
-            Fires a barrage of guided missiles at the enemy. While individually weak,
-            their large numbers provide heavy fire power and great accuracy even
-            at long range. Limited in supply. Enemy flak and heavy armor mitigate missiles."""
+            self.tooltip = u"""
+            向敌人发射大量导弹。虽然每发火力较弱，
+            但是数量庞大足以造成巨大杀伤。在长距离
+            上依然精准。有弹药限制，会被防空火力削弱。"""
 
     class PaladinAssault(Kinetic):
         def __init__(self):
@@ -1632,11 +1631,11 @@ init 2 python:
             self.wtype = 'Assault'
             self.name = 'Paladin_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
-            Assault guns spray explosive low caliber rounds at the enemy. Even if
-            the enemy evades one round, others may hit. Armor is twice as
-            effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
+            self.tooltip = u"""
+            弹幕武器发射大量小口径弹幕，即使敌人闪避了
+            其中几发，其它依旧可能命中。面对弹幕武器时
+            护甲效果加倍。也是用来拦截敌人导弹的防空火力，
+            但是连续拦截后效果会减弱。"""
 
 
     class PaladinKinetic(Kinetic):
@@ -1649,9 +1648,9 @@ init 2 python:
             self.wtype = 'Kinetic'
             self.name = 'Paladin_Kinetic'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
-            Kinetics pack a punch, but are inaccurate against distant or small foes.
-            Armor is twice as effective at mitigating kinetic weaponry."""
+            self.tooltip = u"""
+            一发面对远距离和小目标敌人时不甚精确的重击。
+            面对动能武器时护甲效果加倍。"""
 
 ############################################# PACT MISSILE FRIGATE
 
@@ -2168,9 +2167,9 @@ init 2 python:
             self.name = 'Repair I'
             self.shot_count = 1
             self.lbl = Image('Battle UI/button_repair.png')
-            self.tooltip = """
-            Restores approximately 300 HP to target.
-            Has a range of 3 hexes."""
+            self.tooltip = u"""
+            为目标回复约300点生命值。
+            使用距离3格。"""
 
     class AccUp(Support):
         def __init__(self):
@@ -2180,9 +2179,9 @@ init 2 python:
             self.buff_duration = 3
             self.name = 'Aim Up'
             self.lbl = Image('Battle UI/button_aimup.png')
-            self.tooltip = """
-            Adds an additional 15 points to the target's weapon accuracy.
-            Has a range of 3 hexes."""
+            self.tooltip = u"""
+            为目标增加15点命中。
+            使用距离3格。"""
 
     class DamageUp(Support):
         def __init__(self):
@@ -2192,9 +2191,9 @@ init 2 python:
             self.buff_duration = 3
             self.name = 'Damage Up'
             self.lbl = Image('Battle UI/button_atkup.png')
-            self.tooltip = """
-            Increases the target's weapon damage by 20 percent.
-            Has a range of 3 hexes."""
+            self.tooltip = u"""
+            为目标增加百分之二十伤害。
+            使用距离3格。"""
 
     class Restore(Support):
         def __init__(self):
@@ -2205,9 +2204,9 @@ init 2 python:
             self.name = 'Restore'
             self.energy_use = 40
             self.lbl = Image('Battle UI/button_restore.png')
-            self.tooltip = """
-            Removes all enemy status ailments from the target.
-            Has a range of 3 hexes."""
+            self.tooltip = u"""
+            移除目标身上的敌对属性修正效果。
+            使用距离3格。"""
 
     class Stealth(Support):
         def __init__(self):
@@ -2221,8 +2220,8 @@ init 2 python:
             self.buff_duration = 1
             self.name = 'Stealth'
             self.lbl = Image('Battle UI/button_stealth.png')
-            self.tooltip = """
-            Become immune to enemy blindsides for one turn."""
+            self.tooltip = u"""
+            免疫先制反击一回合。"""
 
     class Awaken(Support):
         def __init__(self):
@@ -2237,10 +2236,9 @@ init 2 python:
             self.buff_duration = 3
             self.name = 'Awaken'
             self.lbl = Image('Battle UI/button_awaken.png')
-            self.tooltip = """
-            Temporarily overcharges the Seraphim's systems, providing
-            an additional 100 additional points to accuracy as well as
-            doubling weapon damage for three turns."""
+            self.tooltip = u"""
+            暂时让炽天使的系统过载，三回合内
+            增加一百点命中并让伤害翻倍。"""
 
     class AwakenAsaga(Support):
         def __init__(self):
@@ -2256,8 +2254,8 @@ init 2 python:
             self.name = 'Awaken Asaga'
             self.lbl = Image('Battle UI/button_asaawaken.png')
             self.end_of_turn_callback = self.callback
-            self.tooltip = """
-            Improves the Black Jack's damage, evasion and armor each turn, but also causes progressively more damage each turn until canceled."""
+            self.tooltip = u"""
+            增加黑杰克的伤害，闪避和护甲，但是也造成每回合递增的伤害直至取消。"""
 
         def callback(self):
             a,b = blackjack.modifiers['damage']
@@ -2288,8 +2286,8 @@ init 2 python:
             self.energy_use = 0
             self.accuracy = 100
             self.lbl = Image('Battle UI/button_asaawaken.png')
-            self.tooltip = """
-            Cancels the awakening effect"""
+            self.tooltip = u"""
+            取消觉醒效果。"""
 
         def fire(self,parent,target,counter = False):
             blackjack.modifiers['damage'] = [0,0]
@@ -2317,8 +2315,8 @@ init 2 python:
             self.buff_duration = 3
             self.name = 'Aim Down'
             self.lbl = Image('Battle UI/button_aimdown.png')
-            self.tooltip = """
-            Reduces the target's weapon accuracy by 25 points."""
+            self.tooltip = u"""
+            降低目标的武器精度二十五点。"""
 
     class Disable(Curse): #takes away all EN
         def __init__(self):
@@ -2330,8 +2328,8 @@ init 2 python:
             self.buff_duration = 2 #has to be 2 or else the debuff won't last beyond the start of their next turn
             self.name = 'Disable'
             self.lbl = Image('Battle UI/button_disable.png')
-            self.tooltip = """
-            Completely disables the target for one turn."""
+            self.tooltip = u"""
+            让目标本回合完全无法行动。"""
 
     class FlakOff(Curse):
         def __init__(self):
@@ -2343,8 +2341,8 @@ init 2 python:
             self.buff_duration = 2
             self.name = 'Flak Off'
             self.lbl = Image('Battle UI/button_flak.png')
-            self.tooltip = """
-            The target can no longer counter attack or fire flak at missiles for two turns."""
+            self.tooltip = u"""
+            目标两回合内无法先制反击或拦截导弹类武器。"""
 
     class ShutOff(Curse):  #shuts down shield generation
         def __init__(self):
@@ -2356,8 +2354,8 @@ init 2 python:
             self.buff_duration = 2
             self.name = 'Shield Down'
             self.lbl = Image('Battle UI/button_shutoff.png')
-            self.tooltip = """
-            Deactivates the target's shields for two turns."""
+            self.tooltip = u"""
+            消除目标的护盾两回合。"""
 
     class ShdJam(Curse):  #shuts down shield generation
         def __init__(self):
@@ -2370,8 +2368,8 @@ init 2 python:
             self.cumulative = True  #do not overwrite but add to the current modifier.
             self.name = 'Shield Jam'
             self.lbl = Image('Battle UI/button_shdjam.png')
-            self.tooltip = """
-            Temporarily reduce the target's shield generation by 15 points. Can be used multiple times on the same target."""
+            self.tooltip = u"""
+            暂时降低目标的护盾十五点，可以叠加。"""
 
 
 ###are these still used?##
@@ -2475,11 +2473,11 @@ init 2 python:
             self.wtype = 'Assault'
             self.name = 'Phoenix_Assault'
             self.lbl = Image('Battle UI/button_assault.png')
-            self.tooltip = """
-            Assault guns spray explosive low caliber rounds at the enemy. Even if
-            the enemy evades one round, others may hit. Armor is twice as
-            effective against assault. Also used to shoot down incoming enemy missiles,
-            but loses effectiveness against sustained barrages."""
+            self.tooltip = u"""
+            弹幕武器发射大量小口径弹幕，即使敌人闪避了
+            其中几发，其它依旧可能命中。面对弹幕武器时
+            护甲效果加倍。也是用来拦截敌人导弹的防空火力，
+            但是连续拦截后效果会减弱。"""
 
     class PhoenixMelee(Melee):
         def __init__(self):
@@ -2494,9 +2492,9 @@ init 2 python:
             self.type = 'Melee'
             self.shot_count = 2
             self.lbl = Image('Battle UI/button_melee.png')
-            self.tooltip = """
-            Slice an enemy ryder for devastating damage. However, can only be used on adjacent
-            ryders. Moving directly next to an enemy ryder will trigger an enemy blindside attack."""
+            self.tooltip = u"""
+            切开敌人的太空骑士，造成毁灭性伤害。只能用于
+            近身范围的敌人。移动到敌人身边会触发先制反击。"""
 
 
  ###########################################PHOENIX ENEMY
@@ -2523,9 +2521,9 @@ init 2 python:
             self.energy_use = 100
             self.shot_count = 1
             self.accuracy = 150
-            self.tooltip = """
-            Sola\'s rifle is an elegant weapon from a more civilized age.
-            Incredibly powerful and accurate weapon, but demands much energy."""
+            self.tooltip = u"""
+            索拉的步枪来自文明更加先进的时代。
+            惊人的火力和精度，但是需要大量能量。"""
 
 ################################################### BIANCA
 
@@ -2539,9 +2537,9 @@ init 2 python:
             self.wtype = 'Assault'
             self.name = 'Bianca Shotgun'
             self.lbl = Image('Battle UI/button_kinetic.png')
-            self.tooltip = """
-            Provides reliable firepower, but highly inaccurate unless the target
-            is nearby and large. Can also be used for blindside attacks."""
+            self.tooltip = u"""
+            提供可靠的火力输出。但除非目标很大或距离很近，
+            否则并不精准。可以用来进行先制反击。"""
 
 
 ##################################################### UNION FRIGATE
@@ -2557,9 +2555,9 @@ init 2 python:
             self.wtype = 'Laser'
             self.name = 'Trinities'
             self.lbl = Image('Battle UI/button_laser.png')
-            self.tooltip = """
-            Lasers are accurate even from long distances, but lack fire power.
-            Mitigated by enemy shields."""
+            self.tooltip = u"""
+            激光是长距离上的精准武器，但是火力有限。
+            会被敌人的护盾抵消。"""
 
 ###################################################### NIGHTMARE
 
@@ -2650,9 +2648,9 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'new warhead'
-            self.display_name = "WARHEAD AMMO"
+            self.display_name = u"火箭弹头"
             self.cost = 300
-            self.tooltip = 'Purchase warheads to allow the Sunrider to fire powerful rockets at the enemy. A rocket deals {} damage, but can be shot down by enemy flak. The Sunrider can carry a maximum of 2 at a time.'.format(sunrider.weapons[3].damage)
+            self.tooltip = u'购买弹头后，太阳骑士号可以向敌人发射威力强大的火箭。一枚火箭造成{}伤害，但是可以被敌人的防空火力击落。太阳骑士号最多同时携带2枚火箭。'.format(sunrider.weapons[3].damage)
             self.variable_name = 'sunrider.rockets'    #this decides what is shown in the store after [owned:
             self.max_amt = 2    #you can buy no more than this number of this item. see previous field
 
@@ -2663,9 +2661,9 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'Rocketupgrade1'
-            self.display_name = "QUANTUM TORPEDO LICENSE"
+            self.display_name = u"量子弹头许可"
             self.cost = 2000
-            self.tooltip = 'While the proliferation of nuclear warheads throughout the galaxy has made them readily available, more powerful weapons are regulated closely by the Alliance. With the payment of appropriate fees, the Union can replace your current stock of nuclear warheads with quantum warheads, permanently increasing the Sunrider\'s rocket damage to 1200.'
+            self.tooltip = u'核弹头的取得相当容易，但是威力更大的武器一直在联盟的严格管控之下。通过支付相应的费用，矿业联合可以将您的核弹头升级为量子弹头，永久增加太阳骑士号火箭武器的基础伤害百分之五十。'
             self.visibility_condition = 'sunrider_rocket.damage < 1200'
 
         def buy(self):
@@ -2676,9 +2674,9 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'RepairUpgrade1'
-            self.display_name = "PORTABLE REPAIR BOOSTER"
+            self.display_name = u"携带式修理机器人"
             self.cost = 1000
-            self.tooltip = 'While extensive repairs require time in the dry dock, battlefield repairs are still a must for combat operations. These new portable repair drones will allow the Liberty to repair 200 more HP. This upgrade also reduces the energy cost of the repair ability by 10EN'
+            self.tooltip = u'尽管全面的修理需要在干船坞慢慢进行，战场修理技术仍然是必不可少的。这些最新的可携带式修理机器人允许“自由”的修理量提高200点，同时降低修理技能的能量消耗10点。'
             self.visibility_condition = 'store.chigara_repair.damage < 500'
 
         def buy(self):
@@ -2691,9 +2689,9 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'repair drones'
-            self.display_name = "REPAIR DRONE"
+            self.display_name = u"修理机器人"
             self.cost = 400
-            self.tooltip = 'These autonomous robots can rapidly restore destroyed hull sections as well as complex electronic systems. They are a must have for all hostile operations.  Restores 50% of the Sunrider\'s HP on use. The Sunrider can carry a maximum of 8 at a time.'
+            self.tooltip = u'这些自动机器人可以快速修复舰体的受损部分和电子设备，是居家旅行的必需品。恢复太阳骑士号一半生命值，最多携带8个。'
             self.visibility_condition = 'sunrider.repair_drones != None'
             self.variable_name = 'sunrider.repair_drones'
             self.max_amt = 8
@@ -2705,12 +2703,12 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'alliance cruiser'
-            self.display_name = "ALLIANCE CRUISER"
+            self.display_name = u"联盟巡洋舰"
             self.cost = 2000
             self.visibility_condition = 'store.mission12_complete'  #not sure
             self.variable_name = "get_shipcount_in_list('Alliance Cruiser',player_ships)"
             self.max_amt = 2
-            self.tooltip = 'With the Solar Congress\' declaration of war, countless Alliance battle cruisers have been called to the front lines. With a generous payment, the Mining Union can use its leverage in the Solar Congress to assign a fully operational Alliance battle cruiser as the Sunrider\'s escort. While slow, the Alliance battle cruiser is built like a brick and packs a punch. You can have up to {} in your fleet at any time'.format(self.max_amt)
+            self.tooltip = u'太阳议会宣战后，无数的联盟战斗巡洋舰加入了战斗。如果支付相应的费用，矿业联合可以利用在太阳议会的影响力让一艘状态良好的联盟战斗巡洋舰作为太阳骑士号的护卫行动。尽管速度不快，联盟的战斗巡洋舰威力无比同时固若金汤。最多同时保有{}艘。'.format(self.max_amt)
 
         def buy(self):
             create_ship(AllianceCruiser()) #location=None, weaponlist=[] i.e. default
@@ -2720,12 +2718,12 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'union frigate'
-            self.display_name = "UNION FRIGATE"
+            self.display_name = u"联合护卫舰"
             self.cost = 750
             self.visibility_condition = 'store.mission12_complete'  #not sure
             self.variable_name =  "get_shipcount_in_list('Mining Union Frigate',player_ships)"
             self.max_amt = 4
-            self.tooltip = 'The Mining Union regularly fields a large private army to protect its shipping from pirates. With the payment of the appropriate fees, you too can have a Union security frigate watching your back. While small and lightly armed, these frigates are inexpensive and speedy. You can have up to {} in your fleet at any time'.format(self.max_amt)
+            self.tooltip = u'矿业联合有一支庞大的部队用来击退海盗。只要支付相应的费用，您也可以得到一艘联合的护卫舰来保护您的安全。这些护卫舰尽管小而脆弱，但是廉价且迅速。最多同时保有{}艘。'.format(self.max_amt)
 
         def buy(self):
             create_ship(UnionFrigate()) #location=None, weaponlist=[] i.e. default
@@ -2735,9 +2733,9 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'wishall'
-            self.display_name = "SELL WISHALL"
+            self.display_name = u"出售愿望机"
             self.cost = -10000
-            self.tooltip = 'The Wishall is an ancient Ryuvian artifact which allows its user to make one free command decision during the story. Alternately, you may decide to sell it here for an instant cash infusion of 10 000 credits.'
+            self.tooltip = u'愿望机是古鲁维亚遗物，可以让拥有者进行一次免费的指挥决断。另外，您也可以在这里出售它以得到10 000元。'
             self.visibility_condition = "store.wishall"
 
         def buy(self): #here is where you decide what this item -does-.
@@ -2747,9 +2745,9 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'sunrider_shield_upgrade'
-            self.display_name = "SUNRIDER SHIELD UPGRADE"
+            self.display_name = u"太阳骑士护盾"
             self.cost = 1500
-            self.tooltip = "Due to the Sunrider's unexpected departure from Cera, she was never outfitted with energy shielding. While her top of the line shield generator was lost with the fall of Cera, the Union can outfit the Sunrider with a basic shield generator. The Sunrider's shields can be further upgraded in the Research Lab after it is purchased."
+            self.tooltip = u"由于太阳骑士号的仓促离港，她没来得及装备上能量护盾。尽管她的原装护盾随着瑟拉的沦陷失落了，矿业联合可以为她配备一个基础型护盾装置。护盾购买后可以在研究室进一步升级。"
             self.visibility_condition = 'store.sunrider.shield_generation == 0'
 
         def buy(self):
@@ -2761,9 +2759,9 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'black_jack_thrusters'
-            self.display_name = "BLACK JACK THRUSTER UPGRADES"
+            self.display_name = u"黑杰克推进器升级"
             self.cost = 750
-            self.tooltip = "The Black Jack was designed to be compatible with military grade high-powered thrusters, but those are not easy to find. Thanks to your connections with the Mining Union, this no longer needs to hold her back."
+            self.tooltip = u"黑杰克原本的设计是采用军事级高性能推进器，但是它非常难以取得。由于与矿业联合的良好关系，这已经不再是问题。"
             self.visibility_condition = 'store.blackjack.move_cost > 15 and store.mission5_complete'
 
         def buy(self):
@@ -2773,9 +2771,9 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'gravity_gun_booster'
-            self.display_name = "GRAVITINO GENERATOR"
+            self.display_name = u"引力发生器"
             self.cost = 750
-            self.tooltip = "Chigara can make the Bianca's gravity gun more efficient by adding one of these high tech devices. Energy cost per use will drop to 40 (from 60)."
+            self.tooltip = u"切嘉拉可以通过安装这种设备让比安卡的引力武器更加高效，能量消耗降至40。"
             self.visibility_condition = 'store.bianca.weapons[1].energy_use == 60 and mission12_complete'
 
         def buy(self):
@@ -2786,9 +2784,9 @@ init 2 python:
         def __init__(self):
             StoreItem.__init__(self)
             self.id = 'sunrider_vanguard_upgrade'
-            self.display_name = "SUNRIDER VANGUARD UPGRADE"
+            self.display_name = u"先锋火炮升级"
             self.cost = 1100
-            self.tooltip = "Increase the Vanguard cannon's damage from 800 to 1000 damage and extend the range by 1 hex"
+            self.tooltip = u"将先锋火炮的伤害由800提升至1000，并增加一格射程。"
             self.visibility_condition = 'store.mission12_complete and BM.vanguard_damage < 1000'
 
         def buy(self):

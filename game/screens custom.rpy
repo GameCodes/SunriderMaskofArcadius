@@ -961,11 +961,11 @@ screen orders:
                                 xpos 150
                                 ycenter 20
 
-                                text str('Provides +15 Aim and +20% damage to all allied units. Will cancel All Guard if active.'):
+                                text unicode('所有友方单位增加15点命中和百分之二十伤害，会取消“ALL GUARD”指令效果。'):
                                     xpos 0
                                     ypos 0
                                     size 18
-                                    font "Font/sui generis rg.ttf"
+                                    font "Font/NotoSansCJKsc-Regular.otf"
                                     outlines [(1,'000',0,0)]
 
                         if order == 'ALL GUARD' and BM.show_tooltips == True:
@@ -974,11 +974,11 @@ screen orders:
                                 xpos 150
                                 ycenter 20
 
-                                text str('Provides +20 Flak, +10 Evasion and +10 shield generation to all ships. Will cancel Full Forward if active.'):
+                                text unicode('所有友方单位增加20点防空、10点闪避和10点护盾，会取消“FULL FORWARD”指令效果。'):
                                     xpos 0
                                     ypos 0
                                     size 18
-                                    font "Font/sui generis rg.ttf"
+                                    font "Font/NotoSansCJKsc-Regular.otf"
                                     outlines [(1,'000',0,0)]
 
                         if order == 'REPAIR DRONES' and BM.show_tooltips == True:
@@ -987,11 +987,11 @@ screen orders:
                                 xpos 150
                                 ycenter 20
 
-                                text str('Restores 50% of the Sunrider\'s health.'):
+                                text unicode('为太阳骑士号恢复一半生命值。'):
                                     xpos 0
                                     ypos 0
                                     size 18
-                                    font "Font/sui generis rg.ttf"
+                                    font "Font/NotoSansCJKsc-Regular.otf"
                                     outlines [(1,'000',0,0)]
 
                         if order == 'VANGUARD CANNON' and BM.show_tooltips == True:
@@ -1001,11 +1001,11 @@ screen orders:
                                 ycenter 20
 
                                 $ damage = get_modified_damage(BM.vanguard_damage,'notplayer')
-                                text str('Deals {} unavoidable damage to all units in a straight line extending outwards from the Sunrider with a maximum range of {} hexes.'.format(damage,BM.vanguard_range)):
+                                text unicode('对以太阳骑士号为起点的一条直线上的所有单位造成{}点无法避免的伤害，范围{}格。'.format(damage,BM.vanguard_range)):
                                     xpos 0
                                     ypos 0
                                     size 18
-                                    font "Font/sui generis rg.ttf"
+                                    font "Font/NotoSansCJKsc-Regular.otf"
                                     outlines [(1,'000',0,0)]
 
                         if order == 'SHORT RANGE WARP' and BM.show_tooltips == True:
@@ -1014,11 +1014,11 @@ screen orders:
                                 xpos 150
                                 ycenter 20
 
-                                text str('Moves the Sunrider to any point on the map. Can be used with another Order.'):
+                                text unicode('将太阳骑士号移动到地图上的任意位置，可以和其他命令共同使用。'):
                                     xpos 0
                                     ypos 0
                                     size 18
-                                    font "Font/sui generis rg.ttf"
+                                    font "Font/NotoSansCJKsc-Regular.otf"
                                     outlines [(1,'000',0,0)]
 
                         if order == 'RESURRECTION' and BM.show_tooltips == True:
@@ -1027,11 +1027,11 @@ screen orders:
                                 xpos 150
                                 ycenter 20
 
-                                text str('Select a downed unit to launch into the battle once more at full health.'):
+                                text unicode('将一个被击败的单位以满生命值重新送回战场。'):
                                     xpos 0
                                     ypos 0
                                     size 18
-                                    font "Font/sui generis rg.ttf"
+                                    font "Font/NotoSansCJKsc-Regular.otf"
                                     outlines [(1,'000',0,0)]
 
                         if order == 'RETREAT' and BM.show_tooltips == True:
@@ -1040,11 +1040,11 @@ screen orders:
                                 xpos 150
                                 ycenter 20
 
-                                text str('Retreats your units from the battle with no penalties applied.'):
+                                text unicode('将一个单位不受任何惩罚地撤出战斗。'):
                                     xpos 0
                                     ypos 0
                                     size 18
-                                    font "Font/sui generis rg.ttf"
+                                    font "Font/NotoSansCJKsc-Regular.otf"
                                     outlines [(1,'000',0,0)]
 
 
@@ -1459,11 +1459,11 @@ screen tooltips:
                 xpos mouse_x + 100
                 ycenter mouse_y
 
-                text str(weapon.tooltip):
-                    xpos -70 #NO IDEA why I can only get things to align right this way.
+                text unicode(weapon.tooltip):
+                    xpos -30 #NO IDEA why I can only get things to align right this way.
                     ypos -10
-                    size 18
-                    font "Font/sui generis rg.ttf"
+                    size 20
+                    font "Font/NotoSansCJKsc-Regular.otf"
                     outlines [(1,'000',0,0)]
 
 transform hp_falls(hp_size1,hp_size2):

@@ -1,6 +1,11 @@
 ﻿# This file is in the public domain. Feel free to modify it as a basis
 # for your own screens.
 
+init -99 python:
+    
+    #config.default_language = "Chinese"
+    config.language = "Chinese"
+       
 init -1 python hide:
 
     ## Used when exiting the game menu to the game.
@@ -71,9 +76,10 @@ screen say:
             id "what"
             xmaximum 1080       #change this to increase the max length of the text. (anything longer gets wrapped)
             ypos 0.8           #vertical position
+            font "Font/NotoSansCJKsc-Regular.otf"
             text_align 0.5      #centers the text inside the displayable
             xalign 0.5          #sets the text displayable itself in the center of the screen
-            size 25
+            size 30
             outlines [ (2, "#0a0a0a", 0, 0) ]
 
         #textbutton "Dev Con" xpos 1800 ypos 0 action Show("devconsole", transition=None)
@@ -111,7 +117,7 @@ screen choice:
     vbox:
         ypos 0.655
         xalign 0.5
-        spacing 28
+        spacing 25
         for label, action, chosen in items:
 
             text label:
@@ -217,12 +223,12 @@ screen main_menu:
         insensitive "Menu/menu_inactive.jpg"
         hover "Menu/menu_hover.jpg"
 
-        hotspot (160, 405, 133, 50) action Show('campaigns', transition=dissolve)
+        hotspot (80, 405, 208, 50) action Show('campaigns', transition=dissolve)
         hotspot (80, 472, 208, 50) action FileLoad("1", page="auto", confirm=False)
-        hotspot (171, 537, 118, 50) action ShowMenu('load')
-        hotspot (92, 598, 200, 50) action ShowMenu('preferences')
-        hotspot (138, 666, 151, 50) action ShowMenu('bonus')
-        hotspot (186, 730, 108, 50) action Quit()
+        hotspot (80, 537, 208, 50) action ShowMenu('load')
+        hotspot (80, 598, 208, 50) action ShowMenu('preferences')
+        hotspot (80, 666, 208, 50) action ShowMenu('bonus')
+        hotspot (80, 730, 208, 50) action Quit()
 
     text '[config.version]' xpos 0.01 ypos 0.98 size 12
 

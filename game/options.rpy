@@ -152,7 +152,7 @@ init -1 python hide:
 
     ## The file containing the default font.
 
-    style.default.font = "Menu/euphemia.ttf"
+    style.default.font = "Font/NotoSansCJKsc-Regular.otf"
 
     ## The default size of text.
 
