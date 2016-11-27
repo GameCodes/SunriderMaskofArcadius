@@ -1444,7 +1444,7 @@ translate Chinese tellmorepirates_7486bf36:
 translate Chinese tellmorepirates_e90976de:
 
     # asa "The Havoc's only weakness is that it's pretty slow and sluggish, so it can be picked off by other ryders."
-    asa "好在“灾厄”又慢又笨重，用其他的宇宙骑士可以轻松干掉她。"
+    asa "好在“灾厄”又慢又笨重，用其他的太空骑士可以轻松干掉她。"
 
 # game/script.rpy:1633
 translate Chinese tellmorepirates_5c3ad4b2:
