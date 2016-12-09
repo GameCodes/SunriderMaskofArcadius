@@ -9,7 +9,7 @@ Something like:
 
 ````bash
 cd steamapps/common/Sunrider/
-git clone https://github.com/galaxysd/SunriderMaskofArcadius.git
+git clone https://github.com/GameCodes/SunriderMaskofArcadius.git
 git checkout cn
 
 wget -P game/Font https://github.com/googlei18n/noto-cjk/raw/master/NotoSansCJKsc-Regular.otf
